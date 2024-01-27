@@ -1,0 +1,87 @@
+:root {
+    --title:  #597e8d;
+    --subTitle: #ADD3E1;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 18px;   /* 1 rem = 10 px*/
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;
+}
+
+.titulo {
+    text-align: center;
+    color: var(--title);
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+.subtitle {
+    color: var(--subTitle);
+    font-size: 2rem;
+    font-style: italic;
+}
+
+span {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.image {
+    background-image: url(../resources/ye.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.img-content {
+    background-color: rgba(0,0,0,.1);
+    color: #f8f8ff;
+    padding: 20px;
+    height: 180px;
+    width: 1260px;
+}
+
+.bg-nav {
+    background-color: #819EA9;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-nav a {
+    color: var(--title);
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.main-nav a:hover {
+    color: var(--subTitle);
+    background-color: #597e8d;
+}
+
+@media (max-width: 480px) {
+    .main-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
