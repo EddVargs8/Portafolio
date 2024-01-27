@@ -1,5 +1,5 @@
 ## Table of contents
-![HTML5][html-image]]
+[![HTML5][html-image]]
 * [General info](#general-info)
 
 ## General info
