@@ -46,11 +46,10 @@ span {
     background-image: url(../resources/ye.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
+    background-color: rgba(0,0,0,.1);
 }
 
 .img-content {
-    background-color: rgba(0,0,0,.1);
     color: #f8f8ff;
     padding: 20px;
     height: 180px;
